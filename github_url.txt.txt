@@ -1,0 +1,3 @@
+git@github.com:cryptorius/examenhtml.git
+
+me carga todos los datos pero despues se desconecta a ultimo momento, adjunto el archivo PROBLEMA.jpg para que vean y puedan decirme que sucedio.

@@ -1,0 +1,131 @@
+<!-- He iniciado nuevamente con el renderizado de html 5, lo aprendido en el curso de NEXTU -->
+<!DOCTYPE html>
+	<!-- Comienza el html para educacuib -->
+	<HTML>
+		<!-- En la head se realizara la descripcion del mismo archivo y tambien lo aprendido el curso -->
+		<head>
+			<meta charset="utf-8"
+			<meta name="viewport" content="width=device-width, user-scalable=no">
+			<meta name="author" content="Ponce, fernando gaston">
+			<meta name="description" content="el examen fue realizado con el programa sublime, siguiendo lo indicado en el examen">
+			<meta name="keywords" content="HTML">
+			<meta name="base" content="educacion">
+			<title>Curriculum Vitae</title>
+		</head>
+		<!-- Comienza el body del documento lo que va a visualizar el usuario -->
+		<body>
+			<header>
+			<!-- En este sector va el LOGO SVG -->
+			<svg width="150px" height="150px" >
+				<!-- dibuje ingresando segmento por segmento, (entre comas) para poder ver como la figura se hiba formando (despues de ingresar cada segmento actualize el navegador)	-->
+				<polygon points=" 20 20, 150 20, 150 50, 60 50, 60 80, 120 80, 120 100, 60 100, 60 150, 20 150" style="fill:blue;stroke:black;stroke-width:5">
+			</svg>
+			<svg width="300px" height="150px">
+				<!-- Agrego la letras de mi nombre restante con el formato texto -->
+				<text x="0" y="145" style="font-size: 180px;stroke:black;stroke-width:5;fill:blue">G P</text>
+			</svg>
+
+			<!-- Comienza el segundo punto de lo solicitado en el examen -->
+			<h1 style="text-align:center">Curriculum Vitae</h1>
+
+			<!-- Comienza el tercer punto de lo solicitado en el examen,  -->
+			<h2>Apellido</h2>
+				<h3>Ponce</h3>
+			<h2>Nombre</h2>
+				<h3>Fernando Gast&oacute;n</h3>
+			<h2>Fecha de Nacimiento</h2>
+				<h3>30 de Mayo de 1979</h3>
+			<h2>Lugar de Nacimiento</h2>
+				<h3>Argentina - Buenos Aires - La Plata</h3>
+			</header>
+			<!-- Comienza el cuarto punto de lo solicitado en el examen -->
+				<nav>
+					<!-- este enlace del navegador que me envia al inicio -->
+					<a href="index.html" target="_self" title="presentacion de mi curriculum vitae">inicio</a>
+					<!-- este enlace del navegador que me envia a mi educacion recibida -->
+					<a href="educacion.html" target="_self" title="Sobre mi educacion">Educacion Recibida</a>
+					<!-- este enlace del navegador que me envia a mi experiencia previa -->
+					<a href="experiencia.html" target="_self" title="Sobre mi experiencia laboral">Experiencia Laboral</a>
+				</nav>
+			<!-- Comienza el quinto punto de lo solicitado en el examen -->
+				<article>
+					<h2>Educacion</h2>
+				<!-- Comienzo el secto punto a realizar la tabla de 4 columnas -->
+					<table>
+						<thead>
+							<td>A&ntilde;o</td>
+							<td>Institucion</td>
+							<td>Lugar</td>
+							<td>Culmino</td>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1991</td>
+								<td>Primaria</td>
+								<td>Escuela n&ordm; 15</td>
+								<td style="text-align: center;">si</td>
+							</tr>
+							<tr>
+								<td>1993</td>
+								<td>Secundiario</td>
+								<td>Escuela de Ense&ntilde;anza Media n&ordm; 31</td>
+								<td style="text-align: center;">si</td>
+							</tr>
+							<tr>
+								<td>2006</td>
+								<td>Tecnico en redes</td>
+								<td>Procap S.R.L.</td>
+								<td style="text-align: center;">si</td>
+							</tr>
+							<tr>
+								<td>2006</td>
+								<td>curso de herramientas de dise&ntilde;o Web</td>
+								<td>Procap S.R.L.</td>
+								<td style="text-align: center;">si</td>
+							</tr>
+							<tr>
+								<td>2010</td>
+								<td>curso vigilador</td>
+								<td>U.P.S.R.A</td>
+								<td style="text-align: center;">si</td>
+							</tr>
+						</tbody>
+						<tfoot><tr>
+								<td>2018</td>
+								<td>Varios Cursos</td>
+								<td>Next University</td>
+								<td>no</td>
+							</tr>
+						</tfoot>
+					</table>
+				</article>
+			<!-- Comienzo el septimo con el formulario para agregar estudios -->
+				<article>
+					<h3>Agregar Estudios</h3>
+					<form name="formeduc" method="post">
+						<label>A&ntilde;o
+							<select name="anio">
+								<option selected value="">...</option>
+								<option value="2015">2015</option>
+								<option value="2016">2016</option>
+								<option value="2017">2017</option>
+								<option value="2018">2018</option>
+							</select>
+						</label><br>
+						<label>Institucion
+							<input type="text" name="inst" placeholder="Institucion" required>
+						</label><br>
+						<label>lugar
+							<textarea name="lugar" rows="3" cols="40" placeholder="Lugar"></textarea>
+						</label><br>
+						<label>culmino
+							<input type="radio" name="culmi" value="si">
+						</label><br>
+							<button type="submit">enviar</button>
+					</form>
+				</article>
+		<!-- Comienza el octavo punto de lo solicitado en el examen -->
+			<footer><strong>E-mail</strong>: Ferumtyler@gmail.com // <strong>Telefono</strong>: +549-221-5319280 // <strong>Nick</strong>: Cryptorius // <strong>Redes</strong>: Facebook, google+ // <strong>Direccion</strong>: 28 n&deg; 3720 e/494 y 495/ Argentina - Buenos Aires - La Plata - Gonnet
+			</footer>
+		</body>
+	</HTML>
